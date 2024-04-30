@@ -1,0 +1,41 @@
+CRIANDO REPOSITÓRIOS
+**comando terminal**
+mkdir - criar diretório 
+cat config - exibir conteúdo
+ctrl + L - clear
+cd PASTA - ir
+cd .. - voltar
+
+**comando git**
+git init - inicializar diretório
+git clone URL nome(opcional) - clonar diretório
+git remote -v - mostra repositórios remotos que está vinculado
+git remote add origin URL - adicionar repositório remoto
+
+SALVANDO ALTERAÇÕES NO REPOSITÓRIO LOCAL
+
+**comando terminal**
+touch README.md - criar arquivo vazio com nome README.md ou outro inserido
+touch .gitkeep - por convensão este nome  é dado para arquivos vazios apenas para manter algo na pasta e ela ser reconhecida para ser add
+echo <pasta>/(opicional) > .gitignore - cria gitignore e adiciona pasta que não ser adicionada e commitada
+
+**comando git**
+git status - mostra status de área de preparação, que estamos empacotando
+git add <file>||-A - adicionar ao pacote o arquivo ou tudo que foi atualizado
+git commit -m "mensagem" - adicionar commit
+git log - histórico dos commits
+
+
+**Criação do Readme**
+ver Readme
+
+DESFAZENDO ALTERAÇÕES NO REPOSITÓRIO LOCAL
+**comando terminal**
+rm -rf .git - remover o git init
+
+**comando git**
+- git restore <arquivo-a-restaurar> - descarta mudanças feitas (tenha certeza que não deseja nenhuma alteração!
+- git commit --amend -m "nova mensagem" - alterar mensagem do último commit
+- git reset --soft <cod.Commit>(deixando na árvore de traballho(add)) || --mixed <cod.Commit>(retirando da área de trabalho(add)) || --hard <cod.Commit>(apaga todos os arquivos do último commit, sem deixar na árvore de trabalho - desafazer último commit
+git reflog - todas as alterações e resets já realizados
+
