@@ -1,8 +1,7 @@
 
 # Resumo Git e GitHub
 
-Repositório para armazenar resumos sobre Git e GitHub do curso de Versionamento de Cógigo da DIO, no Bootcamp Santander 2024.
-
+Repositório para armazenar meus resumos sobre Git e GitHub
 ## 📑Documentação
 - [Documentação Git](https://git-scm.com/docs)
 - [Documentação GitHub](https://docs.github.com/pt)
